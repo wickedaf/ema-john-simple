@@ -9,7 +9,7 @@ const ProductDetail = () => {
     return (
         <div style={{textAlign: 'center'}}>
             <h1>Product Detail</h1>
-            <div style={{paddingLeft: '400px'}}>
+            <div style={{padding: '0 300px'}}>
             <Product productInfo={selectedProduct} showAddToCart={false}></Product>
             </div>
         </div>
